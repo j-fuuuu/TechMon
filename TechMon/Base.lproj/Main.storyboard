@@ -198,7 +198,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="こうげき" backgroundImage="gold_button.png"/>
                                 <connections>
-                                    <action selector="attackAction" destination="YUp-sC-Gu9" eventType="touchUpInside" id="gfq-8C-0Hq"/>
+                                    <action selector="attackAction" destination="YUp-sC-Gu9" eventType="touchUpInside" id="EWu-qC-rko"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWw-hK-0rT">
@@ -209,7 +209,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="ファイア" backgroundImage="gold_button.png"/>
                                 <connections>
-                                    <action selector="fireAction" destination="YUp-sC-Gu9" eventType="touchUpInside" id="Uhd-YB-D9v"/>
+                                    <action selector="fireAction" destination="YUp-sC-Gu9" eventType="touchUpInside" id="Rra-BM-dMb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pht-IR-Tb8">
@@ -220,7 +220,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="ためる" backgroundImage="gold_button.png"/>
                                 <connections>
-                                    <action selector="tameruAction" destination="YUp-sC-Gu9" eventType="touchUpInside" id="pYm-pN-GcH"/>
+                                    <action selector="tamaruAction" destination="YUp-sC-Gu9" eventType="touchUpInside" id="Htg-US-oJR"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bf-O6-oKv">
@@ -243,7 +243,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="enemyHPLabel" destination="llu-KD-nGp" id="LKI-F4-nyU"/>
+                        <outlet property="enemyHPLabel" destination="llu-KD-nGp" id="PfX-OH-i4s"/>
                         <outlet property="enemyImageView" destination="btT-tr-tRl" id="zuC-Ac-fiO"/>
                         <outlet property="enemyMPLabel" destination="dIH-PO-Zuz" id="iSY-oz-9Vo"/>
                         <outlet property="enemyNameLabel" destination="0Zm-BM-seS" id="GZF-By-O1L"/>
